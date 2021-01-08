@@ -6,7 +6,7 @@ export default function Resume(props) {
     return (
         <div className='resume'>
             <Button href='/GioDiamanteResume.pdf' target='_blank' type='primary' className='viewResume'>
-                <h3>View Resumee</h3>
+                <h3>View Resume</h3>
             </Button>
             <div className='resumeHeading'>
                 <h3>My Resume</h3>
