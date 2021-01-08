@@ -1,5 +1,5 @@
 import React from 'react'
-import './about.scss';
+import '../Styles/about.scss';
 
 export default function About(props) {
     return (

@@ -1,4 +1,4 @@
-import './App.css';
+import './Styles/App.css';
 import React , { useState, useEffect } from 'react';
 import {
   BrowserRouter as Router,
@@ -7,13 +7,14 @@ import {
 } from "react-router-dom";
 
 import Menu from './Components/Menu';
-import BasePage from './Components/BasePage';
 import About from './Components/About';
+import Projects from './Components/Projects';
+import Resume from './Components/Resume';
 
 const HOME_ROUTE = '/'
 
 function App() {
-  document.body.style = 'background: #383838;';
+  document.body.style = 'background: #303030;';
   return (
     <Router>
       <div className="App">
@@ -24,10 +25,10 @@ function App() {
             <About />
           </Route>
           <Route exact path="/projects">
-            <BasePage title='Projects'/>
+            <Projects />
           </Route>
           <Route exact path="/resume">
-            <BasePage title='Resume'/>
+            <Resume />
           </Route>
         </Switch>
       </div>

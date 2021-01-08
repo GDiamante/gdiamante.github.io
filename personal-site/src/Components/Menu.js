@@ -1,5 +1,5 @@
 import React from 'react'
-import './menu.scss'
+import '../Styles/menu.scss'
 import { Row, Col, Button, Divider } from 'antd';
 import { UserOutlined, CodeOutlined, FileTextOutlined } from '@ant-design/icons'
 
