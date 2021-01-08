@@ -5,7 +5,7 @@ import { Button } from 'antd';
 export default function Resume(props) {
     return (
         <div className='resume'>
-            <Button type='primary' className='viewResume'>
+            <Button href='/GioDiamanteResume.pdf' target='_blank' type='primary' className='viewResume'>
                 <h3>View Resume</h3>
             </Button>
             <div className='resumeHeading'>
