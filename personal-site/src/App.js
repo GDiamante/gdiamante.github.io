@@ -12,6 +12,9 @@ import Projects from './Components/Projects';
 import Resume from './Components/Resume';
 
 const HOME_ROUTE = '/'
+const ABOUT_ROUTE = '/about'
+const PROJECTS_ROUTE = '/projects'
+const RESUME_ROUTE = '/resume'
 
 function App() {
   document.body.style = 'background: #303030;';
@@ -20,14 +23,14 @@ function App() {
       <div className="App">
       <Route component={Menu}/>
         <Switch>
-          <Route exact path="/" />
-          <Route exact path="/about">
+          <Route exact path={HOME_ROUTE} />
+          <Route exact path={ABOUT_ROUTE}>
             <About />
           </Route>
-          <Route exact path="/projects">
+          <Route exact path={PROJECTS_ROUTE}>
             <Projects />
           </Route>
-          <Route exact path="/resume">
+          <Route exact path={RESUME_ROUTE}>
             <Resume />
           </Route>
         </Switch>
