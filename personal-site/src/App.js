@@ -17,7 +17,7 @@ const PROJECTS_ROUTE = '/projects'
 const RESUME_ROUTE = '/resume'
 
 function App() {
-  document.body.style = 'background: #303030;';
+  document.body.style = 'background: #303030; height: inherit;';
   return (
     <Router>
       <div className="App">
