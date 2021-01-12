@@ -30,13 +30,26 @@
 
     .aboutBody {
         font-size: large;
+        margin-right: 5px;
         padding-top: 3%;
         padding-bottom: 3%;
         padding-left: 5%;
         padding-right: 5%;
-        text-align: left;
         box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12);
         border-bottom-left-radius: 1px;
         border-bottom-right-radius: 1px;
+        text-align: center;
+
+        p {
+            text-align: left;
+        }
+
+        .personalPhoto {
+            width: 60%;
+            border-style: solid;
+            border-color: $about-color;
+            border-radius: 2px;
+            margin-bottom: 20px;
+        }
     }
 }
