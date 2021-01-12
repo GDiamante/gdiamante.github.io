@@ -1,44 +1,37 @@
 import './Styles/App.css';
 import React from 'react';
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route
-} from "react-router-dom";
-
 
 import Menu from './Components/Menu';
 import About from './Components/About';
 import Projects from './Components/Projects';
 import Resume from './Components/Resume';
 
-const HOME_ROUTE = '/'
-const ABOUT_ROUTE = '/about'
-const PROJECTS_ROUTE = '/projects'
-const RESUME_ROUTE = '/resume'
+const HOME_PAGE = 'home'
+const ABOUT_PAGE = 'about'
+const PROJECTS_PAGE = 'projects'
+const RESUME_PAGE = 'resume'
 
 class App extends React.Component {
 
+  state = {
+    currentPage: HOME_PAGE
+  };
+
+  changePage = newPage => {
+    this.setState({
+      currentPage: newPage
+    });
+  }
+
   render() {
-    document.body.style = 'background: #303030; height: inherit;';
+    document.body.style = 'background: #303030; position: absolute;';
     return (
-      <Router>
         <div className="App">
-        <Route component={Menu}/>
-          <Switch>
-            <Route exact path={HOME_ROUTE} />
-            <Route exact path={ABOUT_ROUTE}>
-              <About />
-            </Route>
-            <Route exact path={PROJECTS_ROUTE}>
-              <Projects />
-            </Route>
-            <Route exact path={RESUME_ROUTE}>
-              <Resume />
-            </Route>
-          </Switch>
+          <Menu currentPage={this.state.currentPage} changePage={this.changePage}/>
+          {this.state.currentPage === ABOUT_PAGE ? <About /> : <></>}
+          {this.state.currentPage === PROJECTS_PAGE ? <Projects /> : <></>}
+          {this.state.currentPage === RESUME_PAGE ? <Resume /> : <></>}
         </div>
-      </Router>
     );
   }
 }

@@ -1,6 +1,5 @@
 import React from 'react'
 import '../Styles/about.scss';
-import { Row, Col } from 'antd';
 
 export default class About extends React.Component {
     render () {
@@ -10,7 +9,7 @@ export default class About extends React.Component {
                     <h3>About Me</h3>
                 </div>
                 <div className='aboutBody'>
-                    <img src='PersonalPhoto.jpg' className='personalPhoto'/>
+                    <img src='PersonalPhoto.jpg' className='personalPhoto' alt="Me"/>
                     <p>Welcome to my website!  I am a Bachelor of Computing Co-op student in my final year at the University of Guelph.  I am completing a major in
                         Computer Science along with a minor in Mathematics and a certificate in Business.  I've completed five Co-op work terms with JOMAR Softcorp
                         and Tulip Retail.
