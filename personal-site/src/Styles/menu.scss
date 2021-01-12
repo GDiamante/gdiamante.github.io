@@ -38,7 +38,6 @@
 
     .ant-btn-primary {
         background-color: $gray-background;
-        border-color: $gray-features;
         color: $gray-features;
         height: 5rem;
         width: 5rem;
@@ -46,12 +45,6 @@
         line-height: 2rem;
         border-width: 2px;
         margin: 1rem;
-
-        &:focus {
-            background-color: $gray-background;
-            border-color: $gray-features;
-            color: $gray-features;
-        }
 
         .anticon {
             margin-top: 0.5rem;
@@ -72,8 +65,7 @@
     }
 
     .ant-btn-primary.aboutButton:hover{
-        background-color: $about-color;
-        border-color: $gray-background;
+        background-color: $about-color !important;
         color: $gray-background;
     }
 
@@ -82,8 +74,7 @@
     }
 
     .ant-btn-primary.projectsButton:hover{
-        background-color: $projects-color;
-        border-color: $gray-background;
+        background-color: $projects-color !important;
         color: $gray-background;
     }
 
@@ -92,8 +83,7 @@
     }
 
     .ant-btn-primary.resumeButton:hover{
-        background-color: $resume-color;
-        border-color: $gray-background;
+        background-color: $resume-color !important;
         color: $gray-background;
     }
 }

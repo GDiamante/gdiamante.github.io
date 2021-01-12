@@ -16,7 +16,7 @@ const ABOUT_ROUTE = '/about'
 const PROJECTS_ROUTE = '/projects'
 const RESUME_ROUTE = '/resume'
 
-function App() {
+function App(props) {
   document.body.style = 'background: #303030; height: inherit;';
   return (
     <Router>
