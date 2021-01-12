@@ -30,9 +30,9 @@ export default class Menu extends React.Component {
         } else {
             this.props.history.push(location);
             this.setState({
-                aboutColor: (location === '/about') ? '#B03D30' : '#303030',
-                projectsColor: (location === '/projects') ? '#CA5310' : '#303030',
-                resumeColor: (location === '/resume') ? '#04776F' : '#303030'
+                aboutColor: (location === ABOUT_ROUTE) ? '#B03D30' : '#303030',
+                projectsColor: (location === PROJECTS_ROUTE) ? '#CA5310' : '#303030',
+                resumeColor: (location === RESUME_ROUTE) ? '#04776F' : '#303030'
             });
             
         }
