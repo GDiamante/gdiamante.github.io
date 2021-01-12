@@ -31,7 +31,7 @@ export default class Menu extends React.Component {
             this.props.changePage(location);
             this.setState({
                 aboutColor: (location === ABOUT_PAGE) ? '#B03D30' : '#303030',
-                projectsColor: (location === PROJECTS_PAGE) ? '#CA5310' : '#303030',
+                projectsColor: (location === PROJECTS_PAGE) ? '#3C4D7B' : '#303030',
                 resumeColor: (location === RESUME_PAGE) ? '#04776F' : '#303030'
             });
         }

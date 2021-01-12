@@ -35,6 +35,10 @@
             background-color: $resume-highlight;
             
         }
+        
+        &:focus {
+            background-color: $resume-color;
+        }
 
         h3 {
             display: table-cell;
