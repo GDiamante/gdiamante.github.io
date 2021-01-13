@@ -7,8 +7,9 @@ export default class About extends React.Component {
 
     showNotification = () => {
         notification.open({
-          message: 'Email Address Copied!',
-          placement: 'bottomRight'
+          message: 'Email Address Copied To Clipboard!',
+          placement: 'bottomRight',
+          className: 'emailNotification'
         });
       };
 

@@ -1,7 +1,5 @@
 @import './colors.scss';
 
-
-
 .about {
     margin-top: 2rem;
     margin-bottom: 2rem;
@@ -84,4 +82,8 @@
             }
         }
     }
+}
+
+.emailNotification {
+    background-color: $gray-features !important;
 }
