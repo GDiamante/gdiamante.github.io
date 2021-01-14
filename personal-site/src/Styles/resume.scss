@@ -69,75 +69,86 @@
         justify-content: space-between;
         flex-wrap: wrap;
 
-        .resumeWorkExperience {
-            width: 100%;
-            max-width: 32rem;
-            margin-bottom: 1rem;
+        .resumeWrittenBody {
+            background-color: $text-background;
+            font-size: large;
+            padding-top: 3%;
+            padding-bottom: 3%;
+            padding-left: 5%;
+            padding-right: 5%;
+            justify-content: space-evenly;
+            border-bottom-left-radius: 1px;
+            border-bottom-right-radius: 1px;
+            box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12);
 
-            .resumeWorkExperienceBody {
-                background-color: $text-background;
-                font-size: large;
-                padding-top: 3%;
-                padding-bottom: 3%;
-                padding-left: 5%;
-                padding-right: 5%;
-                justify-content: space-evenly;
-                border-bottom-left-radius: 1px;
-                border-bottom-right-radius: 1px;
-                box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12);
+            h3 {
+                color: $resume-highlight;
+                margin: 0;
+                font-weight: 600;
+            }
 
-                h3 {
-                    color: $resume-highlight;
-                    margin: 0;
-                }
+            h4 {
+                color: $font-color;
+                margin: 0;
+                font-size: 18px;
+                font-weight: 400;
+            }
 
-                h4 {
-                    color: $font-color;
-                    margin: 0;
-                    font-size: 18px;
-                }
-
-                h5 {
-                    color: $font-color;
-                    font-size: 16px;
-                    font-weight: 350;
-                    margin: 0;
-                }
+            h5 {
+                color: $font-color;
+                font-size: 14px;
+                font-weight: 350;
+                margin: 0;
             }
         }
-        .resumeEducation {
+
+        .resumeLeftSide {
             max-width: 26rem;
             width: 100%;
-            margin-bottom: 1rem;
 
-            .resumeEducationBody {
-                background-color: $text-background;
-                font-size: large;
-                padding-top: 3%;
-                padding-bottom: 3%;
-                padding-left: 5%;
-                padding-right: 5%;
+            .resumeWorkExperience {
+                margin-bottom: 1rem;
+            }
+
+            .resumeEducation {
+                margin-bottom: 1rem;
+            }
+        }
+        .resumeRightSide {
+            max-width: 32rem;
+            width: 100%;
+            
+            .resumeSkills {
+                margin-bottom: 1rem;
+            }
+            .resumeContactBody {
+                display: flex;
                 justify-content: space-evenly;
-                border-bottom-left-radius: 1px;
-                border-bottom-right-radius: 1px;
-                box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12);
+                margin-bottom: 1rem;
+                margin-top: 1rem;
 
-                h3 {
-                    color: $resume-highlight;
-                    margin: 0;
+                a.ant-btn {
+                    background-color: $resume-color;
+                    color: $gray-features;
+                    border-style: none;
+                    display: flex;
+                    justify-content: space-evenly;
+                    flex-direction: column;
+                    font-weight: 600;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    padding-top: 4px;
+                    width: 6rem;
                 }
-    
-                h4 {
-                    color: $font-color;
-                    margin: 0;
-                    font-size: 18px;
-                }
-    
-                h5 {
-                    color: $font-color;
-                    font-size: 16px;
-                    font-weight: 350;
-                    margin: 0;
+                .ant-btn {
+                    background-color: $resume-color;
+                    color: $gray-features;
+                    border-style: none;
+                    font-weight: 600;
+                    font-size: 14px;
+                    text-transform: uppercase;
+                    padding-top: 4px;
+                    width: 6rem;
                 }
             }
         }
