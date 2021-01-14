@@ -17,7 +17,7 @@ export default class Resume extends React.Component {
         return (
             <div className='resume'>
                 <Button href='/GioDiamanteResume.pdf' target='_blank' type='primary' className='viewResume'>
-                    <h3>View Resume</h3>
+                    <h3>Open Full Resume</h3>
                 </Button>
                 <div className="resumeBody">
                     <div className="resumeLeftSide">
