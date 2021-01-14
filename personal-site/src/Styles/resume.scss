@@ -67,10 +67,12 @@
     .resumeBody {
         display: flex;
         justify-content: space-between;
+        flex-wrap: wrap;
 
         .resumeWorkExperience {
             width: 100%;
             max-width: 32rem;
+            margin-bottom: 1rem;
 
             .resumeWorkExperienceBody {
                 background-color: $text-background;
@@ -80,7 +82,6 @@
                 padding-left: 5%;
                 padding-right: 5%;
                 justify-content: space-evenly;
-                text-align: justify;
                 border-bottom-left-radius: 1px;
                 border-bottom-right-radius: 1px;
                 box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12);
@@ -107,6 +108,7 @@
         .resumeEducation {
             max-width: 26rem;
             width: 100%;
+            margin-bottom: 1rem;
 
             .resumeEducationBody {
                 background-color: $text-background;
@@ -116,7 +118,6 @@
                 padding-left: 5%;
                 padding-right: 5%;
                 justify-content: space-evenly;
-                text-align: justify;
                 border-bottom-left-radius: 1px;
                 border-bottom-right-radius: 1px;
                 box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12);
