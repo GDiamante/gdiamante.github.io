@@ -24,7 +24,7 @@ class App extends React.Component {
   }
 
   render() {
-    document.body.style = 'background: #303030; position: absolute;';
+    document.body.style = 'background: #303030; display: grid';
     return (
         <div className="App">
           <Menu currentPage={this.state.currentPage} changePage={this.changePage}/>
