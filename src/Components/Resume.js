@@ -73,7 +73,7 @@ export default class Resume extends React.Component {
                                 <h4>Amazon Web Services, Google Cloud Platform</h4>
                                 <br/>
                                 <h3>Tools and Technologies</h3>
-                                <h4>Git, Visual Studio Code, Jest, Bootstrap, Ant Design, Eclipse, JUnit, Make</h4>
+                                <h4>Git, Visual Studio Code, Bootstrap, Ant Design, Jest, Eclipse, JUnit, Make</h4>
                             </div>
                         </div>
                         <div className="resumeContact">
