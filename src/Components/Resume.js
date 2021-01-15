@@ -7,7 +7,7 @@ export default class Resume extends React.Component {
 
     showNotification = () => {
         notification.open({
-          message: 'Email Address Copied To Clipboard!',
+          message: 'Email Address Copied!',
           placement: 'bottomRight',
           className: 'emailNotification'
         });
