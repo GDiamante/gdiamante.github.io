@@ -1,18 +1,8 @@
 import React from 'react'
 import '../Styles/resume.scss';
-import { Button, notification } from 'antd';
-import { CopyToClipboard } from 'react-copy-to-clipboard';
+import { Button } from 'antd';
 
 export default class Resume extends React.Component {
-
-    showNotification = () => {
-        notification.open({
-          message: 'Email Address Copied!',
-          placement: 'bottomRight',
-          className: 'emailNotification'
-        });
-      };
-
     render() {
         return (
             <div className='resume'>
@@ -88,11 +78,9 @@ export default class Resume extends React.Component {
                                     <Button href='https://github.com/GDiamante' target='_blank'>
                                         Github
                                     </Button>
-                                    <CopyToClipboard text='gdiamante123@gmail.com'>
-                                        <Button onClick={this.showNotification}>
-                                            Email
-                                        </Button>
-                                    </CopyToClipboard>
+                                    <Button href='https://forms.gle/wNzLtX64URHfZgyM9' target='_blank'>
+                                        Email
+                                    </Button>
                                 </div>
                             </div>
                         </div>
