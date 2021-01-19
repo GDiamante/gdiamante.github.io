@@ -10,7 +10,7 @@ const RESUME_PAGE = 'resume'
 
 const BACKGROUND_COLOR = '#303030'
 const ABOUT_COLOR = '#A32E21'
-const PROJECTS_COLOR = '#3C4D7B'
+const PROJECTS_COLOR = '#26428F'
 const RESUME_COLOR = '#04776F'
 
 export default class Menu extends React.Component {
