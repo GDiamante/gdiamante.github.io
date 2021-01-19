@@ -8,14 +8,19 @@ const ABOUT_PAGE = 'about'
 const PROJECTS_PAGE = 'projects'
 const RESUME_PAGE = 'resume'
 
+const BACKGROUND_COLOR = '#303030'
+const ABOUT_COLOR = '#A32E21'
+const PROJECTS_COLOR = '#3C4D7B'
+const RESUME_COLOR = '#04776F'
+
 export default class Menu extends React.Component {
 
     constructor(props) {
         super(props);
         this.state = {
-            aboutColor: '#303030',
-            projectsColor: '#303030',
-            resumeColor: '#303030'
+            aboutColor: BACKGROUND_COLOR,
+            projectsColor: BACKGROUND_COLOR,
+            resumeColor: BACKGROUND_COLOR
         }
     }
 
@@ -23,16 +28,16 @@ export default class Menu extends React.Component {
         if (this.props.currentPage === location) {
             this.props.changePage(HOME_PAGE);
             this.setState({
-                aboutColor: '#303030',
-                projectsColor: '#303030',
-                resumeColor: '#303030'
+                aboutColor: BACKGROUND_COLOR,
+                projectsColor: BACKGROUND_COLOR,
+                resumeColor: BACKGROUND_COLOR
             });
         } else {
             this.props.changePage(location);
             this.setState({
-                aboutColor: (location === ABOUT_PAGE) ? '#B03D30' : '#303030',
-                projectsColor: (location === PROJECTS_PAGE) ? '#3C4D7B' : '#303030',
-                resumeColor: (location === RESUME_PAGE) ? '#04776F' : '#303030'
+                aboutColor: (location === ABOUT_PAGE) ? ABOUT_COLOR : BACKGROUND_COLOR,
+                projectsColor: (location === PROJECTS_PAGE) ? PROJECTS_COLOR : BACKGROUND_COLOR,
+                resumeColor: (location === RESUME_PAGE) ? RESUME_COLOR : BACKGROUND_COLOR
             });
         }
     }
