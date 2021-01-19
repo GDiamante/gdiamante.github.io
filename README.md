@@ -1,5 +1,5 @@
 # PersonalSite
 
-This is my personal portfolio site.  I use this to highlight information about myself and as a fun web design project.
+This is my personal portfolio site.  I use this to highlight information about myself and was a fun web design project.
 
-This website is written with React JS and is single page.
+This is a static webpage written with React JS.
