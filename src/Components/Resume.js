@@ -16,6 +16,10 @@ export default class Resume extends React.Component {
                                 <h3>Work Experience</h3>
                             </div>
                             <div className='resumeWrittenBody'>
+                                <h3>Software Engineer</h3>
+                                <h4>NCR Corporation</h4>
+                                <h5>May 2021-Present</h5>
+                                <br/>
                                 <h3>Software Developer - Apps</h3>
                                 <h4>Tulip Retail</h4>
                                 <h5>January 2020-August 2020</h5>
@@ -51,19 +55,19 @@ export default class Resume extends React.Component {
                             </div>
                             <div className='resumeWrittenBody'>
                                 <h3>Languages and Frameworks</h3>
-                                <h4>C, Java, Python, React Native</h4>
+                                <h4>C, Java, Python, React Native, Flutter</h4>
                                 <br/>
                                 <h3>Web</h3>
                                 <h4>HTML, CSS/SCSS, JavaScript, TypeScript, React JS, PHP, JQuery</h4>
                                 <br/>
                                 <h3>Databases</h3>
-                                <h4>MySQL, NoSQL, Oracle Database, Microsoft SQL Server, DynamoDB</h4>
+                                <h4>MySQL, NoSQL, Oracle Database, Microsoft SQL Server</h4>
                                 <br/>
                                 <h3>Cloud Platforms</h3>
                                 <h4>Amazon Web Services, Google Cloud Platform</h4>
                                 <br/>
                                 <h3>Tools and Technologies</h3>
-                                <h4>Git, Visual Studio Code, Bootstrap, Ant Design, Jest, Eclipse, JUnit, Make</h4>
+                                <h4>Node.js, Jest, Git, JUnit, Make, Postman</h4>
                             </div>
                         </div>
                         <div className="resumeContact">
