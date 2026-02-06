@@ -86,12 +86,6 @@ export default function Blog() {
                 </div>
                 </div>
             )}
-
-            <p className="mt-4 text-[0.7rem] text-slate-500 sm:mt-5 sm:text-xs">
-                Tip: you can later move blog content into dedicated routes or MDX
-                files; this section is intentionally simple to keep publishing
-                friction low.
-            </p>
             </section>
     );
 }

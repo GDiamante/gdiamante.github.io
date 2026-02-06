@@ -5,7 +5,7 @@ import Projects from "./_components/Projects";
 
 export default function Home() {
   return (
-    <div className="min-h-screen bg-slate-50 text-slate-900">
+    <div className="min-h-screen">
       <div className="mx-auto flex min-h-screen max-w-5xl flex-col px-4 pb-16 pt-8 sm:px-6 lg:px-8 lg:pt-10">
         <header className="mb-10 flex flex-col gap-6 border-b border-slate-200/80 pb-6 sm:flex-row sm:items-center sm:justify-between">
           <div>
@@ -56,8 +56,8 @@ export default function Home() {
 
         <main className="flex flex-1 flex-col gap-10 sm:gap-12">
           <About />
-          <Blog />
           <Resume />
+          <Blog />
           <Projects />
         </main>
       </div>
