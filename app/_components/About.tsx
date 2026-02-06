@@ -4,15 +4,15 @@ export default function About() {
         <section
             id="about"
             aria-labelledby="about-heading"
-            className="rounded-2xl border border-slate-200 bg-white px-4 py-6 shadow-sm sm:px-6 sm:py-7 lg:px-8"
+            className="rounded-2xl border border-slate-600/60 bg-[var(--about-primary)] px-4 py-6 shadow-sm sm:px-6 sm:py-7 lg:px-8"
             >
-            <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.24em] text-sky-700">
-                <span className="h-px w-6 bg-sky-500/70" />
+            <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.24em] text-sky-300">
+                <span className="h-px w-6 bg-sky-400/70" />
                 <span id="about-heading">About</span>
             </div>
             <div className=" flex flex-col gap-6 sm:flex-row sm:items-center">
                 <div className="shrink-0">
-                <div className="relative h-20 w-20 overflow-hidden rounded-2xl border border-slate-200 bg-slate-50 shadow-sm sm:h-55 sm:w-55">
+                <div className="relative h-20 w-20 overflow-hidden rounded-2xl border border-slate-600/60 bg-slate-700/50 shadow-sm sm:h-55 sm:w-55">
                     {/* Replace /profile.jpg with your own image in /public */}
                     <img
                     src="/profile.jpg"
@@ -22,7 +22,7 @@ export default function About() {
                 </div>
                 </div>
                 <div className="space-y-3">
-                <p className="text-sm leading-relaxed text-slate-800 sm:text-base">
+                <p className="text-sm leading-relaxed text-slate-200 sm:text-base">
                 I&apos;m Gio, a senior software developer currently 
                 working at Candescent, where I focus on building robust, extendable software
                 using clean coding practices. This site is where I share my work, ideas on 
@@ -38,14 +38,14 @@ export default function About() {
                     href="https://www.linkedin.com/in/gdiamante"
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex items-center gap-2 rounded-lg border border-sky-100 bg-sky-50/70 px-3 py-1.5 text-sky-800 shadow-sm shadow-sky-50/80 transition hover:border-sky-300 hover:bg-white hover:text-sky-900"
+                    className="inline-flex items-center gap-2 rounded-lg border border-sky-600/60 bg-sky-900/50 px-3 py-1.5 text-sky-200 shadow-sm transition hover:border-sky-500 hover:bg-sky-800/60 hover:text-sky-100"
                     >
                     <span className="h-1.5 w-1.5 rounded-full bg-sky-500" />
                     LinkedIn
                     </a>
                     <a
                     href="mailto:gio@gdiamante.com"
-                    className="inline-flex items-center gap-2 rounded-lg border border-emerald-100 bg-emerald-50/70 px-3 py-1.5 text-emerald-800 shadow-sm shadow-emerald-50/80 transition hover:border-emerald-300 hover:bg-white hover:text-emerald-900"
+                    className="inline-flex items-center gap-2 rounded-lg border border-emerald-600/60 bg-emerald-900/50 px-3 py-1.5 text-emerald-200 shadow-sm transition hover:border-emerald-500 hover:bg-emerald-800/60 hover:text-emerald-100"
                     >
                     <span className="h-1.5 w-1.5 rounded-full bg-emerald-500" />
                     Email
@@ -54,7 +54,7 @@ export default function About() {
                     href="https://github.com/gdiamante"
                     target="_blank"
                     rel="noreferrer"
-                    className="inline-flex items-center gap-2 rounded-lg border border-slate-200 bg-slate-50/80 px-3 py-1.5 text-slate-800 shadow-sm shadow-slate-100/80 transition hover:border-slate-400 hover:bg-white hover:text-slate-950"
+                    className="inline-flex items-center gap-2 rounded-lg border border-slate-600/60 bg-slate-700/50 px-3 py-1.5 text-slate-200 shadow-sm transition hover:border-slate-500 hover:bg-slate-600 hover:text-white"
                     >
                     <span className="h-1.5 w-1.5 rounded-full bg-slate-400" />
                     GitHub
