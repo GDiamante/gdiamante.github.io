@@ -10,9 +10,9 @@ export default function About() {
                 <span className="h-px w-6 bg-sky-400/70" />
                 <span id="about-heading">About</span>
             </div>
-            <div className=" flex flex-col gap-6 sm:flex-row sm:items-center">
+            <div className=" flex flex-col gap-6 sm:flex-row sm:items-end">
                 <div className="shrink-0">
-                <div className="relative h-20 w-20 overflow-hidden rounded-2xl border border-slate-600/60 bg-slate-700/50 shadow-sm sm:h-55 sm:w-55">
+                <div className="relative h-55 w-55 overflow-hidden rounded-2xl border border-slate-600/60 bg-slate-700/50 shadow-sm sm:h-55 sm:w-55">
                     {/* Replace /profile.jpg with your own image in /public */}
                     <img
                     src="/profile.jpg"

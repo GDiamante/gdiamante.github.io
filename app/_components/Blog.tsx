@@ -26,8 +26,8 @@ export default function Blog() {
             >
             <div className="flex items-center justify-between gap-4">
                 <div className="space-y-1">
-                <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.24em] text-slate-200">
-                    <span className="h-px w-6 bg-slate-400/80" />
+                <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.24em] text-emerald-300">
+                    <span className="h-px w-6 bg-emerald-400/80" />
                     <span id="blog-heading">Blog</span>
                 </div>
                 <p className="text-xs text-slate-400 sm:text-sm">
@@ -48,7 +48,7 @@ export default function Blog() {
                 {blogPosts.map((post) => (
                     <article
                     key={post.title}
-                    className="group relative flex h-56 min-w-[13rem] max-w-[13rem] flex-col justify-between rounded-2xl border border-slate-600/60 bg-slate-700/50 p-4 shadow-sm transition hover:border-slate-500 hover:bg-slate-600/60 hover:shadow-md sm:h-64 sm:min-w-[15rem] sm:max-w-[15rem]"
+                    className="group relative flex h-56 min-w-[13rem] max-w-[13rem] flex-col justify-between rounded-2xl border border-slate-600/30 bg-slate-800/40 p-4 shadow-sm transition hover:border-slate-500/40 hover:bg-slate-700/30 hover:shadow-md sm:h-64 sm:min-w-[15rem] sm:max-w-[15rem]"
                     >
                     <div className="flex flex-wrap items-center justify-between gap-2">
                         <h3 className="line-clamp-2 text-sm font-semibold text-slate-100 sm:text-base">
@@ -72,7 +72,7 @@ export default function Blog() {
                         <div className="mt-3">
                         <a
                             href={post.url}
-                            className="inline-flex items-center text-xs font-medium text-sky-300 transition hover:text-sky-200 sm:text-sm"
+                            className="inline-flex items-center text-xs font-medium text-emerald-300 transition hover:text-emerald-200 sm:text-sm"
                         >
                             Read more
                             <span aria-hidden="true" className="ml-1">

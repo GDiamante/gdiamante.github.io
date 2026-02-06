@@ -28,8 +28,8 @@ export default function Projects() {
       >
         <div className="flex items-center justify-between gap-4">
           <div className="space-y-1">
-            <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.24em] text-emerald-300">
-              <span className="h-px w-6 bg-emerald-400/70" />
+            <div className="flex items-center gap-2 text-xs font-semibold uppercase tracking-[0.24em] text-violet-300">
+              <span className="h-px w-6 bg-violet-400/70" />
               <span id="projects-heading">Projects</span>
             </div>
             <p className="text-xs text-slate-400 sm:text-sm">
@@ -43,7 +43,7 @@ export default function Projects() {
           {projects.map((project) => (
             <article
               key={project.name}
-              className="group flex flex-col justify-between rounded-xl border border-slate-600/60 bg-slate-700/50 p-4 shadow-sm transition hover:border-emerald-500/60 hover:bg-slate-600/60 hover:shadow-md"
+              className="group flex flex-col justify-between rounded-xl border border-slate-600/60 bg-slate-700/50 p-4 shadow-sm transition hover:border-violet-500/60 hover:bg-slate-600/60 hover:shadow-md"
             >
               <div>
                 <h3 className="text-sm font-semibold text-slate-100 sm:text-base">
@@ -58,7 +58,7 @@ export default function Projects() {
                   href={project.github}
                   target="_blank"
                   rel="noreferrer"
-                  className="inline-flex items-center text-xs font-medium text-emerald-300 transition hover:text-emerald-200 sm:text-sm"
+                  className="inline-flex items-center text-xs font-medium text-violet-300 transition hover:text-violet-200 sm:text-sm"
                 >
                   View on GitHub
                   <span aria-hidden="true" className="ml-1">
