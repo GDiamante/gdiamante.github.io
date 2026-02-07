@@ -1,8 +1,11 @@
 import About from "./_components/About";
 import Blog from "./_components/Blog";
 import Projects from "./_components/Projects";
+import { getBlogPosts } from "./_utils/getBlogPosts";
 
 export default function Home() {
+  const blogPosts = getBlogPosts();
+
   return (
     <div className="min-h-screen">
       <div className="mx-auto flex min-h-screen max-w-5xl flex-col px-4 pb-16 pt-8 sm:px-6 lg:px-8 lg:pt-10">
@@ -29,7 +32,7 @@ export default function Home() {
 
         <main className="flex flex-1 flex-col gap-10 sm:gap-12">
           <About />
-          <Blog />
+          <Blog posts={blogPosts} />
           <Projects />
         </main>
       </div>
