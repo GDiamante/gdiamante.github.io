@@ -21,10 +21,6 @@ export default function Blog({ posts }: BlogProps) {
                         <span className="h-px w-6 bg-emerald-400/80" />
                         <span id="blog-heading">Blog</span>
                     </div>
-                    <p className="text-xs text-slate-400 sm:text-sm">
-                        Occasional notes on engineering, design, and things I&apos;m
-                        learning.
-                    </p>
                 </div>
                 {posts.length > 0 && (
                     <Link
