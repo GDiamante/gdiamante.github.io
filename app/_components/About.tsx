@@ -10,9 +10,9 @@ export default function About() {
                 <span className="h-px w-6 bg-sky-400/70" />
                 <span id="about-heading">About</span>
             </div>
-            <div className=" flex flex-col gap-6 sm:flex-row sm:items-end">
-                <div className="shrink-0">
-                    <div className="relative h-55 w-55 overflow-hidden rounded-2xl border border-slate-600/60 bg-slate-700/50 shadow-sm sm:h-55 sm:w-55">
+            <div className="flex flex-col gap-6 items-center text-center sm:flex-row sm:items-center sm:text-left">
+                <div className="shrink-0 mx-auto sm:mx-0">
+                    <div className="relative h-32 w-32 overflow-hidden rounded-2xl border border-slate-600/60 bg-slate-700/50 shadow-sm sm:h-56 sm:w-56">
                         {/* Replace /profile.jpg with your own image in /public */}
                         <img
                             src="/profile.jpg"
@@ -33,7 +33,7 @@ export default function About() {
                         Lately, I’ve been deep in a React Native project, building a
                         cross-platform mobile app and enjoying the challenge of turning ideas into something tangible.
                     </p>
-                    <div className="flex flex-wrap gap-3 pt-1 text-xs sm:text-sm">
+                    <div className="flex flex-wrap gap-3 pt-1 text-xs sm:text-sm justify-center sm:justify-start">
                         <a
                             href="https://www.linkedin.com/in/gdiamante"
                             target="_blank"

@@ -9,12 +9,12 @@ export default function Home() {
   return (
     <div className="min-h-screen">
       <div className="mx-auto flex min-h-screen max-w-5xl flex-col px-4 pb-16 pt-8 sm:px-6 lg:px-8 lg:pt-10">
-        <header className="mb-10 flex flex-col gap-6 border-b border-slate-600/80 pb-6 sm:flex-row sm:items-end sm:justify-between">
+        <header className="mb-8 flex flex-col gap-4 items-center text-center border-b border-slate-600/80 pb-6 sm:flex-row sm:items-end sm:justify-between sm:text-left sm:mb-10">
           <div>
             <p className="text-xs uppercase tracking-[0.25em] text-slate-400">
               Software Engineer
             </p>
-            <h1 className="mt-2 text-3xl font-semibold tracking-tight text-slate-100 sm:text-4xl">
+            <h1 className="mt-2 text-2xl font-semibold tracking-tight text-slate-100 sm:text-4xl">
               Gio Diamante
             </h1>
           </div>

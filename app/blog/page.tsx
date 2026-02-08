@@ -7,18 +7,18 @@ export default function BlogPage() {
     return (
         <div className="min-h-screen">
             <div className="mx-auto flex min-h-screen max-w-5xl flex-col px-4 pb-16 pt-8 sm:px-6 lg:px-8 lg:pt-10">
-                <header className="mb-10 border-b border-slate-600/80 pb-6">
+                <header className="mb-8 flex flex-col items-center text-center gap-3 border-b border-slate-600/80 pb-6 sm:mb-10 sm:items-start sm:text-left">
                     <Link
                         href="/"
-                        className="mb-4 inline-flex items-center gap-2 text-sm font-medium text-emerald-300 transition hover:text-emerald-200"
+                        className="mb-0 inline-flex items-center gap-2 text-sm font-medium text-emerald-300 transition hover:text-emerald-200"
                     >
                         <span aria-hidden="true">←</span>
                         Back to Home
                     </Link>
-                    <h1 className="mt-4 text-3xl font-semibold tracking-tight text-slate-100 sm:text-4xl">
+                    <h1 className="mt-2 text-2xl font-semibold tracking-tight text-slate-100 sm:text-4xl">
                         Blog
                     </h1>
-                    <p className="mt-2 text-sm text-slate-400 sm:text-base">
+                    <p className="mt-1 text-sm text-slate-400 sm:text-base">
                         Occasional notes on engineering, design, and things I&apos;m learning.
                     </p>
                 </header>
